@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 var fetchuser = require('../middleware/fetchuser');
 
-const JWT_SECRET = 'this$is$the$sec$string';
+  const JWT_SECRET = 'this$is$the$sec$string';
 
 let success = false;
 
